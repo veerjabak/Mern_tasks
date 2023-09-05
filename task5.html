@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERN TASK5</title>
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 500px;
+        margin-bottom: 10px;
+      }
+      .container {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      caption {
+        color: blue;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 16px;
+      }
+      input[type="text"],
+      input[type="number"],
+      input[type="email"],
+      input[type="tel"],
+      input[type="password"] {
+        width: 98%;
+      }
+      textarea {
+        width: 98%;
+        height: 64px;
+      }
+
+      td,
+      th {
+        border: 1px solid rgb(0, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html"><button>&leftarrow;</button></a>
+    <h2>Task 5</h2>
+    <form>
+      <div class="container">
+        <table>
+          <caption>
+            Registration Form
+          </caption>
+          <tr>
+            <th><label for="firstname">First Name:</label></th>
+            <td><input type="text" name="firstname" /></td>
+          </tr>
+
+          <tr>
+            <th><label for="lastname">Last Name:</label></th>
+            <td><input type="text" name="lastname" /></td>
+          </tr>
+          <tr>
+            <th><label for="mail">Email:</label></th>
+            <td><input type="email" name="mail" /></td>
+          </tr>
+          <tr>
+            <th><label for="password">Password:</label></th>
+            <td><input type="password" name="password" /></td>
+          </tr>
+          <tr>
+            <th><label for="repassword">Re-enter Password:</label></th>
+            <td><input type="password" name="repassword" /></td>
+          </tr>
+          <tr>
+            <th><label>Gender</label></th>
+            <td align="left">
+              <input type="radio" for="gender" />Male
+              <br />
+              <input type="radio" id="gender" />Female
+            </td>
+          </tr>
+          <tr>
+            <th><label for="age">Age:</label></th>
+            <td><input type="number" name="age" /></td>
+          </tr>
+          <tr>
+            <th><label for="phno">Phone Number:</label></th>
+            <td><input type="tel" name="phno" maxlength="10" /></td>
+          </tr>
+          <tr>
+            <th><label>Address</label></th>
+            <td>
+              <textarea maxlength="50"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="state">State:</label></th>
+            <td><input type="text" name="state" /></td>
+          </tr>
+          <tr>
+            <th><label>Country</label></th>
+            <td>
+              <select>
+                <option>--Select--</option>
+                <option>India</option>
+                <option>United State</option>
+                <option>Japan</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label>Language Known:</label></th>
+            <td>
+              <input type="checkbox" />English <input type="checkbox" />Kannada
+              <input type="checkbox" />Hindi <input type="checkbox" />Telegu
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" checked />Hereby I declare all the given
+              details are true
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="right">
+              Login in to <a href="https:www.ethnus.com">Ethnus</a>website.
+            </td>
+          </tr>
+        </table>
+        <center>
+          <input type="submit" value="Register" />
+        </center>
+      </div>
+    </form>
+  </body>
+</html>

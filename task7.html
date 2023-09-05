@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERN TASK7</title>
+    <style>
+      body {
+        display: flex;
+      }
+      .part1,
+      .part2 {
+        margin-top: 100px;
+        margin-left: 100px;
+      }
+
+      .container {
+        width: 200px;
+        height: 250px;
+        border: 2px solid black;
+      }
+      .link-page {
+        width: 90%;
+        border: 2px solid black;
+        background-color: aqua;
+
+        margin: 8px 0 8px 8px;
+      }
+      .vert {
+        padding-bottom: 16px;
+      }
+      .vert:hover {
+        background-color: orange;
+        color: #fff;
+      }
+      .vert {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-decoration: none;
+      }
+      .hort {
+        border: 1px solid black;
+      }
+      .contains {
+        background-color: lightgray;
+        /* border: 1px solid black; */
+        /* display: inline-block; */
+
+        width: 300px;
+        padding: 8px 0;
+        margin: 5px;
+      }
+      text {
+        color: blue;
+      }
+      a {
+        font-size: 16px;
+        text-decoration: none;
+        padding: 8px 8px;
+      }
+      a:hover {
+        background-color: darkgray;
+      }
+      a button {
+        border-radius: 50%;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="index.html"><button>&leftarrow;</button></a>
+    <h2>Task 7</h2>
+    <div class="part1">
+      <h4>vertical navigation bar</h4>
+      <div class="container">
+        <div class="link-page">
+          <a href="#" class="vert">Home</a>
+          <a href="#" class="vert">Java</a>
+          <a href="#" class="vert">CSS</a>
+          <a href="#" class="vert">HTML</a>
+          <a href="#" class="vert">Bootstrap</a>
+        </div>
+      </div>
+    </div>
+    <div class="part2">
+      <h3>Horizontal navigation bar</h3>
+      <div class="hort">
+        <div class="contains">
+          <a href="#" target="_blank">Home</a>&nbsp
+          <text>|</text>
+          <a href="#" target="_self">Java</a>&nbsp
+          <text>|</text>
+          <a href="#" target="_parent">HTML</a>&nbsp
+          <text>|</text>
+          <a href="#">CSS</a>&nbsp
+          <text>|</text>
+          <a href="#"><span> </span></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="wclassth=device-wclassth, initial-scale=1.0"
+    />
+    <title>MERN TASK 12</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: #a22b56;
+        color: white;
+      }
+      form {
+        height: 400px;
+        width: 50%;
+        background-color: #74203e;
+        margin-top: 50px;
+        margin-left: 30%;
+        margin-right: 50%;
+      }
+
+      .naam {
+        margin-top: 20px;
+        margin-left: 75px;
+      }
+
+      .email {
+        margin-top: 20px;
+        margin-left: 75px;
+      }
+
+      .pass {
+        margin-top: 20px;
+        margin-left: 54px;
+      }
+      .tel {
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+      .lbl {
+        margin-left: 150px;
+      }
+      .abc {
+        margin-top: 20px;
+      }
+      .language {
+        margin-top: 20px;
+        margin-left: 55px;
+      }
+      .code {
+        margin-top: 20px;
+        margin-left: 55px;
+      }
+      .abc {
+        margin-top: 20px;
+        padding: 10px;
+        margin-left: 75px;
+      }
+      .gender {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+        padding: 50px;
+      }
+      .btn {
+        margin-top: 20px;
+        margin-left: 20%;
+        width: 60%;
+        height: 30px;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="index.html"><button>&leftarrow;</button></a>
+    <h2>Task 12</h2>
+    <div>
+      <form autocomplete="off">
+        <label class="lbl">Name:</label>
+
+        <input
+          class="naam"
+          type="text"
+          placeholder="Your Name"
+          required
+          autofocus
+        />
+
+        <br />
+
+        <label class="lbl">Email:</label>
+        <input class="email" type="email" placeholder="Your Email" required />
+
+        <br />
+
+        <label class="lbl">Password:</label>
+        <input class="pass" type="password" />
+
+        <br />
+
+        <label class="lbl">Phone Number:</label>
+        <input class="tel" type="tel" required />
+
+        <br />
+
+        <label class="gender">Gender:</label>
+
+        <input type="radio" name="gender" class="Male" />
+        Male
+        <input type="radio" name="gender" class="Female" />
+        Female
+        <input type="radio" name="gender" class="Other" />
+        Other
+
+        <br />
+
+        <label class="lbl">Language:</label>
+
+        <select name="language" class="language">
+          <option value="">Select Language</option>
+          <option value="english">English</option>
+          <option value="hindi">Hindi</option>
+          <option value="tamil">Tamil</option>
+        </select>
+
+        <br />
+
+        <label class="lbl">Zip Code:</label>
+        <input class="code" type="text" />
+
+        <br />
+
+        <label class="lbl">About:</label>
+        <textarea class="abc" placeholder="Write about yourself"></textarea>
+
+        <br />
+
+        <input class="btn" type="submit" value="Register" />
+      </form>
+    </div>
+  </body>
+</html>

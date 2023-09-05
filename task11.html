@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERN TASK 11</title>
+    <style>
+      table {
+        margin-top: 100px;
+        border: 1px solid black;
+        width: 500px;
+      }
+      img {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+
+      input[type="submit"] {
+        background-color: green;
+        width: 507px;
+        border: none;
+        padding: 5px;
+        color: #fff;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 500px;
+      }
+      .c21 {
+        display: flex;
+        justify-content: space-between;
+      }
+      td {
+        padding: 10px;
+      }
+      .cancel {
+        background-color: red;
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      a {
+        color: black;
+      }
+      a::first-letter {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html"><button>&leftarrow;</button></a>
+    <h2>Task 11</h2>
+    <table align="center">
+      <tbody>
+        <tr>
+          <td align="center"><img src="task11pic.jpg" alt="signin" /></td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong name="username">Username</strong>
+
+            <input type="text" for="username" placeholder="Enter Username" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong name="password">Password</strong>
+
+            <input
+              type="password"
+              for="password"
+              placeholder="Enter Password"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="Login" /></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" />Remember me</td>
+        </tr>
+        <tr>
+          <td bgcolor="#adb5bd" bordertop="1">
+            <div class="c21">
+              <button class="cancel">Cancel</button>
+              <a href="#">Forgot password?</a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
